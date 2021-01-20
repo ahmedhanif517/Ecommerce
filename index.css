@@ -1,0 +1,169 @@
+
+
+
+
+
+.header {
+   padding: 30px; /* some padding */
+   text-align: center; /* center the text */
+   background: #080808; 
+   
+   color: white; /* white text color */
+   
+ }
+ 
+ /* Increase the font size of the <h1> element */
+ .header h1 {
+    text-align: center;
+   font-size: 40px;
+ }
+ /* Style the top navigation bar */
+.navbar {
+   overflow: hidden; /* Hide overflow */
+   background-color: #333; /* Dark background color */
+ }
+ 
+ /* Style the navigation bar links */
+ .navbar a {
+   float: left; /* Make sure that the links stay side-by-side */
+   display: block; /* Change the display to block, for responsive reasons (see below) */
+   color: white; /* White text color */
+   text-align: center; /* Center the text */
+   padding: 14px 20px; /* Add some padding */
+   text-decoration: none; /* Remove underline */
+ }
+ h2{
+font-style: italic;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ 
+ /* Right-aligned link */
+ .navbar a.right {
+   float: right; /* Float a link to the right */
+ }
+ 
+ /* Change color on hover/mouse-over */
+ .navbar a:hover {
+   background-color: #ddd; /* Grey background color */
+   color: black; /* Black text color */
+ }
+body{
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    
+    overflow:visible
+    }
+a{
+    text-decoration: none; 
+    background-color: transparent; 
+    color:#ededed;
+   
+ }
+ .content{
+    min-height: 600px;
+    
+   
+ }
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+ .banner-image{
+   padding-top: 75px; 
+   padding-bottom: 50px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #f8f8f8;
+   background: url(img/intro-bg_1.jpg) no-repeat center; 
+   background-size: cover;
+  
+ }
+.banner_content{
+   position: relative;
+   padding-top: 6%;
+   padding-bottom: 6%; 
+   overflow: hidden;
+   margin-top: 12%;
+   margin-bottom: 12%; 
+   background-color: 
+   rgba(0, 0, 0, 0.7); 
+   max-width: 660px;
+   font-family: roboto;
+ 
+}
+.caption{
+   color:#000; 
+   padding:0px 10px 10px; 
+   font-weight: bold; 
+   text-align: center;
+   
+}
+
+.signup{
+   margin-top: 50px;
+   margin-bottom: 190px;
+  
+}
+.settings{
+   margin-top: 70px;
+   margin-bottom: 345px;
+  
+}
+
+#login-panel .panel-footer{
+   font-weight:normal;
+ text-decoration-color: #000;
+}
+
+#cameras:before, #watches:before, #shirts:before{
+   display: block; 
+   content: " "; 
+   margin-top: -85px; 
+   height: 85px; 
+   visibility: hidden;
+
+
+footer{
+   padding: 10px 0;
+   background-color: #101010; 
+   columns #9d9d9d;
+   bottom: 0; 
+   font-size:14px;
+   width: 100%;
+   
+}
+.content{
+   margin-top: 80px;
+  
+}
+
+.password{
+   font-size: 25px;
+ 
+}
